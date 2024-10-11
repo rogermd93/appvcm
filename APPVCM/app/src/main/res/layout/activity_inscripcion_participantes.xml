@@ -1,0 +1,49 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
+    tools:context=".competition.InscripcionParticipantesActivity">
+
+
+
+    <!-- RecyclerView para listar los jugadores -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_players"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="80dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:scrollbars="vertical" />
+
+    <!-- BottomAppBar con el contador de jugadores y el botón flotante -->
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottom_app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:backgroundTint="?attr/colorPrimary">
+
+        <!-- Texto para el contador de jugadores seleccionados -->
+        <TextView
+            android:id="@+id/selected_player_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 participantes"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"/>
+
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+    <!-- Botón flotante para continuar -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_continue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_menu_camera"
+        android:contentDescription="Continuar" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

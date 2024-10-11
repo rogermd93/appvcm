@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".competition.nueva_competencia">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30dp"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="60dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_menu_camera"
+            android:contentDescription="Nueva competencia" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VCM"
+            android:textSize="24sp"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tipo de competencia"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/btn_campeonato"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Campeonato"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btn_eliminacion_directa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eliminación directa"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btn_champions_league"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Champions League"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btn_copa_mundo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Copa del Mundo" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btn_continue"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="Continuar"
+        android:src="@drawable/next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"
+        android:background="@color/yelow"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

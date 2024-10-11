@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="4dp"
+    android:background="@color/teal_700">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="#"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="Nombre"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Pts"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="P"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="G"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="E"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="P"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Gf"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Gc"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Dg"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textAlignment="center" />
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"> <!-- Declarar correctamente el espacio de nombres app -->
+
+    <item
+        android:id="@+id/action_eye"
+        android:icon="@drawable/ic_menu_camera"
+        android:title="Ver"
+        app:showAsAction="always" />  <!-- Usar app:showAsAction -->
+
+    <item
+        android:id="@+id/action_clipboard"
+        android:icon="@drawable/ic_menu_camera"
+        android:title="Checklist"
+        app:showAsAction="always" />  <!-- Usar app:showAsAction -->
+
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_menu_camera"
+        android:title="Compartir"
+        app:showAsAction="always" />  <!-- Usar app:showAsAction -->
+
+</menu>
